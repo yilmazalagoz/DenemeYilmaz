@@ -27,7 +27,7 @@ import android.content.Intent;
 import android.os.Build;
 
 public class FeedActivity extends Activity {
-
+//yilmaz değişiklik
 	ProgressDialog loadingDialog;
 	private ListView feedlist;
 	public ArrayAdapter<String> customadapter;
