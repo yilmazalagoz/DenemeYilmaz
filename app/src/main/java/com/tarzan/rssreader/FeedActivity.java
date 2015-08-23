@@ -39,7 +39,7 @@ public class FeedActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_feed);
 		setupActionBar();
-		
+		//by yilmaz changed
 		Intent feedactivity = getIntent();
 		source = feedactivity.getStringExtra("source");
 		setTitle(source);
