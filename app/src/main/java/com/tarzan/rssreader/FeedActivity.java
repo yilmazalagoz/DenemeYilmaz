@@ -60,6 +60,7 @@ public class FeedActivity extends Activity {
             loadingDialog.setMessage("Loading feed...");
             loadingDialog.setIndeterminate(false);
             loadingDialog.show();
+            //habip sendeyiz
         }
 		
 		@Override
