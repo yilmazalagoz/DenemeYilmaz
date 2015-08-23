@@ -75,8 +75,12 @@ public class FeedActivity extends Activity {
 				document = Jsoup.connect(params[0]).get();
 	            return document.select("channel > item ");
                 //last changes ever //changed by yılmaz
+<<<<<<< HEAD
 				// last changed by saliha
 				
+=======
+				//last changes again
+>>>>>>> 92a9cf7cb71fb341a351ceb918de2de727e42887
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
