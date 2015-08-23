@@ -80,7 +80,8 @@ public class FeedActivity extends Activity {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
+			//saliha degisiklik
             
 			return null;
 		}
