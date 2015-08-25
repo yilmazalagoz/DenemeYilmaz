@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedDetailActivity" >
+
+    <TextView
+        android:id="@+id/feed_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textSize="25sp"
+        android:textColor="#6699FF"
+        android:layout_alignParentTop="true"
+        android:text="@string/feed_title" />
+
+    <TextView
+        android:id="@+id/feed_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/feed_title"
+        android:text="@string/feed_details"
+        android:textSize="17sp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/yilmaza/Documents/RSSReader2/app/src/main/res/layout/activity_feed_detail.xml -->
