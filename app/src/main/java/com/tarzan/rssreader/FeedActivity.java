@@ -125,7 +125,7 @@ public class FeedActivity extends Activity {
 					
 				}
 			});
-	    	
+	    	//yilmaz alagoz changes
             loadingDialog.dismiss();
         }
 
