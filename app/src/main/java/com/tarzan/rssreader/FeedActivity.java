@@ -112,7 +112,7 @@ public class FeedActivity extends Activity {
 				public void onItemClick(AdapterView<?> arg0, View arg1,
 						int pos, long arg3) {
 					
-					
+					//yilmaz dene dene bitmedi
 					Intent feeddetailactivity = new Intent(FeedActivity.this,FeedDetailActivity.class);
 					feeddetailactivity.putExtra("title",result.get(pos).select("title").text());
 					feeddetailactivity.putExtra("detail",result.get(pos).select("description").text());					
